@@ -1,0 +1,8 @@
+Variable	Clonal	Subclonal	Z	P	P.adjusted	comparisons	var1_var2
+IDH.codel.subtype	3.659581194900485e-81	7.033700595656247e-12					
+			-3.5736048161149476	1.7605010239636536e-4	1.7605010239636536e-4	IDHmut-codel - IDHmut-non-codel	Clonal - IDH.codel.subtype
+			-16.467459749347615	3.1427440277350445e-61	9.428232083205133e-61	IDHmut-codel - IDHwt	Clonal - IDH.codel.subtype
+			-14.787419043072553	8.829835440469824e-50	1.3244753160704736e-49	IDHmut-non-codel - IDHwt	Clonal - IDH.codel.subtype
+			2.6119878195769157	0.0045008730618240995	0.0045008730618240995	IDHmut-codel - IDHmut-non-codel	Subclonal - IDH.codel.subtype
+			-3.2259349055128186	6.278095534504266e-4	9.417143301756398e-4	IDHmut-codel - IDHwt	Subclonal - IDH.codel.subtype
+			-7.101653131503676	6.163665862129745e-13	1.8490997586389234e-12	IDHmut-non-codel - IDHwt	Subclonal - IDH.codel.subtype
