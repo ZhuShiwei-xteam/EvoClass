@@ -1,0 +1,4 @@
+case_file=sample.data.txt
+genomic_alteration_file=mut.data.txt
+max_levels=3
+min_fraction_of_alterations=0.01
