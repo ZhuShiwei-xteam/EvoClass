@@ -47,7 +47,7 @@ For readers who want to reproduce analysis shown in manuscript, please [install 
 
 * System: __Linux__
 
-* Software: __R v3.6.0__
+* Software: __R v3.6.2__
 
 * R packages:
   * ggsci
