@@ -1,7 +1,7 @@
 You can download following data from the original website:
 all_thresholded.by_genes.txt 
 Original website: 
-wget ftp://ftp.broadinstitute.org/pub/GISTIC2.0/GISTIC_2_0_22.tar.gz
+wget http://gdac.broadinstitute.org/runs/analyses__2016_01_28/data/GBMLGG-TP/20160128/gdac.broadinstitute.org_GBMLGG-TP.CopyNumber_Gistic2.Level_4.2016012800.0.0.tar.gz
 
 
 gdc_download_20200721_025916.394623.tar.gz
