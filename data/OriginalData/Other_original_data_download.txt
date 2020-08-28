@@ -1,0 +1,19 @@
+You can download following data from the original website:
+all_thresholded.by_genes.txt 
+Original website: 
+wget ftp://ftp.broadinstitute.org/pub/GISTIC2.0/GISTIC_2_0_22.tar.gz
+
+
+gdc_download_20200721_025916.394623.tar.gz
+gdc_download_20200722_023950.634550.tar.gz
+Original website: https://portal.gdc.cancer.gov/ , then manually select LGG's and GBM's FPKM and count data
+
+gencode.v22.annotation.gtf
+Original website: https://www.encodeproject.org/files/gencode.v22.annotation/
+
+
+mc3.v0.2.8.PUBLIC.maf.gz
+Original website: https://gdc.cancer.gov/about-data/publications/mc3-2017
+
+TCGA_mastercalls.abs_segtabs.fixed.txt 
+Original website: https://gdc.cancer.gov/about-data/publications/pancanatlas
