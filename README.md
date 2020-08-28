@@ -71,7 +71,5 @@ For readers who want to reproduce analysis shown in manuscript, please [install 
 These R packages are easily searched by internet and have no strict version requirements to reproduce the analyses.
 
 
-* Other Tools:
- * PyClone v0.13.0
- * GSEA Desktop v4.1.0 requires Java 8
+* Other Tools: __PyClone v0.13.0; GSEA Desktop v4.1.0 requires Java 8__
 
