@@ -30,9 +30,9 @@ For readers who want to obtain raw/result data, locate data file, then download 
 
 * In Github, download file by clicking either `Download` button or `Raw` button at corresponding data page
 
-* Use linux command `wget` or `curl`, fo example, you can download APM gene list by
+* Use linux command `wget` or `curl`, fo example, you can download PCNA gene sets by
 
-  `wget https://github.com/XSLiuLab/tumor-immunogenicity-score/blob/master/data/APM.csv`
+  `wget https://github.com/ZhuShiwei-xteam/EvoClass/blob/master/data/PCNA_Signature.txt
 
 Or you can download whole respository with one of following ways:
 
@@ -51,23 +51,23 @@ For readers who want to reproduce analysis shown in manuscript, please [install 
 
 * R packages:
   * ggsci
-  * [tidyverse](https://www.tidyverse.org/) - operate data, plot
+  * [tidyverse](https://www.tidyverse.org/)
   * oncosign
   * ggpubr
   * pheatmap
   * mclust
-  * survival - built in R, used to do survival analysis
-  * survminer - plot survival fit
+  * survival
+  * survminer
   * powerSurvEpi
   * ggplot2
   * AnnotationDbi
   * org.Hs.eg.db
   * DESeq2
   * dplyr
-  * data.table - operate data
+  * data.table
   * clusterProfiler
   * sequenza
 These R packages are easily searched by internet and have no strict version requirements to reproduce the analyses.
 
-* Other software: __PyClone v0.13.0__Java GSEA Desktop application v4.1.0__
+* Other software: __PyClone v0.13.0, Java GSEA Desktop application v4.1.0__
 
