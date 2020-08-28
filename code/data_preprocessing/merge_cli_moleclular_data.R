@@ -56,6 +56,12 @@ pan.glio.mer.cli.data <- pan.glio.mer.cli.data %>%
          Grade.rough = ifelse(str_detect(histological_type, "GBM"), "grade_IV", "grade_II-III"), 
          WHO_subtype = str_c(IDH.codel.subtype, Grade.rough, sep = "_")) %>%
   select(-(Patient:IDH.temp))
+pan.glio.mer.cli.data$neoplasm_histologic_grade[which(pan.glio.mer.cli.data$Grade.rough == "grade_IV")] <- "G4"
+# molecular defined histological type
+pan.glio.mer.cli.data$molecular_histological_type[which(pan.glio.mer.cli.data$WHO_subtype %in% c("IDHmut-non-codel_grade_II-III", "IDHwt_grade_II-III"))] <- "Astrocytoma"
+pan.glio.mer.cli.data$molecular_histological_type[which(pan.glio.mer.cli.data$WHO_subtype %in% "IDHmut-codel_grade_II-III")] <- "Oligodendroglioma"
+pan.glio.mer.cli.data$molecular_histological_type[which(pan.glio.mer.cli.data$WHO_subtype %in% c("IDHmut-non-codel_grade_IV", "IDHwt_grade_IV", "IDHmut-codel_grade_IV"))] <- "Glioblastoma"
+pan.glio.mer.cli.data$molecular_histological_type <- factor(pan.glio.mer.cli.data$molecular_histological_type, levels = c("Oligodendroglioma", "Astrocytoma", "Glioblastoma"))	
 
 save(pan.glio.mer.cli.data, file = "data/gliomaClinicalData.RData")
 
