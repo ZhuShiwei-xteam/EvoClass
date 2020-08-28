@@ -19,8 +19,6 @@ Purpose of this repository is to share analysis procedure, data and help readers
 * [code](./code): tidy R functions and R script.
 * [data](./data): original and preprocessed data used for analysis and share.
 * [result](./result): important middle results and final results of manuscript, most of them are in form of `.RData`, which can be easily loaded and operated by R. 
-  * [report/results](./report/results): important middle results and final results, most of them are in form of `.RData`, which can be easily loaded and operated by R. 
-
 
 ## Instructions for Use
 
