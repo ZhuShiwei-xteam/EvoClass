@@ -69,5 +69,7 @@ For readers who want to reproduce analysis shown in manuscript, please [install 
   * sequenza
 These R packages are easily searched by internet and have no strict version requirements to reproduce the analyses.
 
-* Other software: __PyClone v0.13.0, Java GSEA Desktop application v4.1.0__
+* Other Tools: 
+ * PyClone v0.13.0
+ * GSEA Desktop v4.1.0 requires Java 8
 
